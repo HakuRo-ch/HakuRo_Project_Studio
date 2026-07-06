@@ -1,68 +1,117 @@
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>アプリ一覧</title>
+<title>HakuRo Project Studio</title>
+
 <style>
 body {
   font-family: sans-serif;
-  padding: 20px;
-  background: #f7f7f7;
+  margin: 0;
+  background: #f4f6f8;
+  color: #333;
 }
 
-h1 {
+header {
+  background: #111827;
+  color: white;
+  padding: 30px 20px;
   text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header p {
+  margin-top: 8px;
+  opacity: 0.8;
+}
+
+.container {
+  padding: 15px;
+  max-width: 600px;
+  margin: auto;
 }
 
 .card {
   background: white;
+  margin: 12px 0;
   padding: 15px;
-  margin: 10px 0;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
 }
 
 a {
   text-decoration: none;
-  color: #333;
+  color: #111;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.6;
+  margin: 30px 0;
 }
 </style>
+
 </head>
 
 <body>
 
-<h1>アプリ一覧</h1>
+<header>
+  <h1>HakuRo Project Studio</h1>
+  <p>個人開発アプリポータル</p>
+</header>
 
-<div class="card">
-<a href="foodlog.html">🍱 Foodlog</a>
+<div class="container">
+
+  <div class="card">
+    <a href="foodlog.html">🍱 Foodlog</a>
+  </div>
+
+  <div class="card">
+    <a href="tabmemo.html">📝 Tab memo</a>
+  </div>
+
+  <div class="card">
+    <a href="calcfive.html">🧮 calc FIVE</a>
+  </div>
+
+  <div class="card">
+　<a href="Term KEEPER.html">📅 Term KEEPER</a>
+　</div>
+
+  <div class="card">
+    <a href="app5.html">📱 App 5</a>
+  </div>
+
+  <div class="card">
+    <a href="app6.html">📱 App 6</a>
+  </div>
+
+  <div class="card">
+    <a href="privacy.html">🔒 プライバシーポリシー</a>
+  </div>
+
 </div>
 
-<div class="card">
-<a href="tabmemo.html">📝 Tab memo</a>
-</div>
-
-<div class="card">
-<a href="calcfive.html">🧮 calc FIVE</a>
-</div>
-
-<div class="card">
-<a href="Term KEEPER.html">📅 Term KEEPER</a>
-</div>
-
-<div class="card">
-<a href="app5.html">📱 アプリ5</a>
-</div>
-
-<div class="card">
-<a href="app6.html">📱 アプリ6</a>
-</div>
-
-<hr>
-
-<div class="card">
-<a href="privacy.html">🔒 プライバシーポリシー</a>
-</div>
+<footer>
+© HakuRo Project Studio
+</footer>
 
 </body>
 </html>
