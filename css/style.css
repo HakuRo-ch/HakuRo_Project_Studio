@@ -333,3 +333,73 @@ header h1{
     margin:0 6px;
 
 }
+
+/* =========================
+   App Cards
+========================= */
+
+.app-card {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 20px;
+
+}
+
+.app-icon {
+
+    width: 80px;
+
+    height: 80px;
+
+    border-radius: 20px;
+
+    background: #f3f3f3;
+
+    border: 2px dashed #cccccc;
+
+    flex-shrink: 0;
+
+}
+
+.app-info {
+
+    flex: 1;
+
+}
+
+.app-info h2 {
+
+    margin: 0 0 10px;
+
+}
+
+.app-info p {
+
+    margin: 6px 0;
+
+}
+
+.app-link {
+
+    display: inline-block;
+
+    margin-top: 12px;
+
+    color: #4f7c54;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+.app-link:hover {
+
+    text-decoration: underline;
+
+}
