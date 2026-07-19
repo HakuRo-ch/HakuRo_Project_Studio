@@ -1,0 +1,87 @@
+/* ==========================
+   Responsive
+========================== */
+
+@media (max-width:700px){
+
+    /* Header */
+
+    header{
+
+        padding:45px 20px;
+
+    }
+
+    header h1{
+
+        font-size:2rem;
+
+    }
+
+    header p{
+
+        font-size:1rem;
+
+    }
+
+    /* Hero */
+
+    .hero{
+
+        padding:40px 20px;
+
+    }
+
+    .hero h2{
+
+        font-size:1.8rem;
+
+    }
+
+    /* Grid */
+
+    .grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .app-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /* App Detail */
+
+    .app-detail-header{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .app-card{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    /* Carousel */
+
+    .carousel{
+
+        gap:8px;
+
+    }
+
+    .carousel-track img{
+
+        width:180px;
+
+    }
+
+}
