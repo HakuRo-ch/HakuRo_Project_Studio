@@ -3,9 +3,13 @@
 ========================== */
 
 .carousel{
+/* ==========================
+   Carousel
+========================== */
+
+.carousel{
 
     max-width:340px;
-
     margin:30px auto;
 
 }
@@ -13,11 +17,8 @@
 .carousel-window{
 
     width:100%;
-
     overflow:hidden;
-
     border-radius:18px;
-
     box-shadow:0 6px 16px rgba(0,0,0,.15);
 
 }
@@ -25,7 +26,6 @@
 .carousel-track{
 
     display:flex;
-
     transition:transform .35s ease;
 
 }
@@ -33,25 +33,20 @@
 .carousel-track img{
 
     width:100%;
-
     min-width:100%;
-
     height:auto;
-
     display:block;
+    user-select:none;
+    -webkit-user-drag:none;
 
 }
 
 .carousel-controls{
 
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
     gap:18px;
-
     margin-top:18px;
 
 }
@@ -59,21 +54,13 @@
 .carousel-btn{
 
     width:42px;
-
     height:42px;
-
     border:none;
-
     border-radius:50%;
-
     background:#5f8966;
-
     color:#fff;
-
     font-size:22px;
-
     cursor:pointer;
-
     transition:.2s;
 
 }
@@ -84,10 +71,16 @@
 
 }
 
+.carousel-btn:active{
+
+    transform:scale(.95);
+
+}
+
 .carousel-dots{
 
     display:flex;
-
+    align-items:center;
     gap:10px;
 
 }
@@ -95,15 +88,10 @@
 .dot{
 
     width:10px;
-
     height:10px;
-
     border-radius:50%;
-
     background:#cccccc;
-
     cursor:pointer;
-
     transition:.2s;
 
 }
@@ -111,7 +99,6 @@
 .dot.active{
 
     background:#5f8966;
-
-    transform:scale(1.2);
+    transform:scale(1.25);
 
 }
