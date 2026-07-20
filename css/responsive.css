@@ -139,3 +139,27 @@
     }
 
 }
+
+@media (max-width:1000px){
+
+    .carousel{
+
+        max-width:320px;
+
+    }
+
+    .carousel-window{
+
+        width:320px;
+
+    }
+
+    .carousel-track img{
+
+        width:320px;
+
+        min-width:320px;
+
+    }
+
+}
